@@ -18,25 +18,85 @@ todo: Abstract.
 ## Terminology
 
 - Three-Letter Agency (TLA)
-    - Definition
+    - **Definition**
+        - A name for a national or international regulatory agency that present to the public as protective of rights through enforcement of law, but commit questionable acts.
+    - **Examples**
+        - FBI (Federal Bureau of Investigation).
+        - CIA (Central Intelligence Agency).
+        - NSA (National Security Agency).
+
 - Compromised
-    - Definition
+    - **Definition**
+        - A device that contains backdoors on the hardware and/or software level.
+    - **Examples**
+        - Almost all Intel CPUs since 2008.
+        - Almost all AMD CPUs since 2014.
+
 - Free Software
-     - Definition
+     - **Definition**
+        - Software that respects the user's freedom, allowing the user to perform any action on the software without restriction.
+    - **Examples**
+        - Parabola GNU/Linux-libre.
+        - Hyperbola GNU/Linux-libre.
+
 - Firmware Blob
-    - Definition
+    - **Definition**
+        - Proprietary (nonfree) firmware/software, which is available as obfuscated code or a binary executable, intended to serve a purpose, like a driver for a device.
+    - **Examples**
+        - BIOS on most systems.
+        - On-chip GPU firmware.
+
 - Backdoor
-    - Definition
+    - **Definition**
+        - A mechanism that intends to allow unauthorized users to access and/or change information without the original user's knowledge or consent.
+    - **Examples**
+        - Intel Management Engine/Intel Manageability Engine.
+        - AMD Secure Technology (Platform Security Processor).
+
 - Personal-Identifying Information (PII)
-    - Definition
+    - **Definition**
+        - Any de-anonymized information that allows an individual to be uniquely identified, either through direct or indirect means.
+    - **Examples**
+        - Social security number.
+        - Street address.
+        - Phone number.
+
+- Fingerprint
+    - **Definition**
+        - Information that is collected about a device with the intent to uniquely identify it across the internet.
+    - **Examples**
+        - Google Analytics.
+
+- Compartmentalization
+    - **Definition**
+        - Separation of information.
+    - **Examples**
+        - Creating a different email for every account.
+
 - Privacy
-    - Definition
+    - **Definition**
+        - The ability to seclude yourself and your information from surveillance.
+    - **Examples**
+        - Limiting the amount of accounts that you create in order to reduce data collection.
+
 - Anonymity
-    - Definition
+    - **Definition**
+        - The ability to seclude your identify from another, and maintain separate identities.
+    - **Examples**
+        - Using a fake name, address, and other information while chatting with someone.
+
 - Security
-    - Definition
+    - **Definition**
+        - Measures taken in order to maintain privacy and anonymity.
+    - **Examples**
+        - Using a program to remove bias from writing.
+
 - Surveillance
-    - Definition
+    - **Definition**
+        - Observation of one or many people in order to build a profile based on their activities.
+    - **Examples**
+        - XKEYSCORE surveillance program.
+        - The Five Eyes.
 
 ## Philosophy
 
