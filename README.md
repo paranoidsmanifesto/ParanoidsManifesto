@@ -89,8 +89,10 @@ todo: Abstract.
 - Security
     - **Definition**
         - Measures taken in order to maintain privacy and anonymity.
+        - How you keep yourself safe from people and organizations with the intent of harm towards yourself or your family.
     - **Examples**
         - Using a program to remove bias from writing.
+        - Putting a shatterproof glass film on all of your windows to delay unauthorized entry into your home.
 
 - Surveillance
     - **Definition**
