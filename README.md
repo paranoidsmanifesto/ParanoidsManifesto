@@ -12,6 +12,7 @@ todo: Abstract.
 - [Justification](#justification)
 - [Taking The Offensive](#taking-the-offensive)
 - [Sections](#sections)
+- [Contributing](#contributing)
 
 <hr>
 
@@ -133,3 +134,7 @@ todo: How to reclaim your privacy, maintaining your anonymity, zero trust, etc.
 ## Sections
 
 todo: Sections of the in-depth guides.
+
+## Contributing
+
+Please create a pull request if you would like to contribute. If you would like to mention a problem or would like another section/more depth on a section, please create an issue.
