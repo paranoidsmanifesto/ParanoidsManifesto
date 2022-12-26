@@ -103,9 +103,23 @@ todo: Abstract.
 
 ## Philosophy
 
-Most individuals have interacted with an internet-facing device before, in which the device was most-likely compromised. Regarding those same individuals, it is most definite that they are still interacting with compromised internet-facing devices. As a Paranoid, you must ensue the following values into your everyday activites:
+### Abstract
+
+Most individuals have interacted with an internet-facing device before, in which the device was most likely compromised. Regarding those same individuals, it is most definite that they are still interacting with compromised internet-facing devices. As a Paranoid, it is essential to adopt various values into one's everyday activites in order to minimize surveillance into communications and private activities. Unfortunately, in an age of surveillance capitalism, where TLA's harvest and aggregate individual personal data for their benefit, it is quite unlikely that one can achieve maximum privacy, security, or anonymity in a modern society. That does not mean that it is not important, which is why maximizing these concepts in one's daily life is vital to your own safety.
 
 #### You Are Never Safe
+
+You can never be completely safe from all insecurities. You can move to a remote island and be completely off the grid, but even then, you will be trading off personal safety for your privacy. You will never be able to achieve maximum secrecy in your everyday communications, but you are not prevented from taking measures to minimize intrusion into your activities.
+
+Assuming an everyday person in an industrialized society, they will have a smartphone, a computer, a smart television, and a smart speaker. All of these devices share a few common similarities: operating systems are closed-source, and they have sensors. In order to keep yourself safe, you must take drastic action, destroying these devices if you can. If you are unable to destroy these devices and need to keep them, the minimum is to destroy the sensors on these devices, and keep them completely off when they are not in use by unplugging them or removing the battery.
+
+In order to protect yourself, you must free yourself from backdoors. Most, if not all modern devices contain backdoors both on the hardware level, and the software level. In order to retain your freedom, you must refrain from owning any of these devices, as you do not own the data on them. That is a multi-step process:
+
+1. Remove all hardware backdoors on your device.
+2. Remove all nonfree firmware blobs on your device.
+3. Remove all software backdoors on your device by installing free software.*
+
+<small>* In an ideal world, free software is completely secure. Security is a spectrum, and while this publication takes it to the extreme, understand what your software is doing, and do not blindly trust it.</small>
 
 todo: Firmware blobs, hardware backdoors, phones, computers, operating systems, etc.
 
