@@ -40,12 +40,12 @@ todo: Abstract.
         - Parabola GNU/Linux-libre.
         - Hyperbola GNU/Linux-libre.
 
-- Firmware Blob
+- Firmware Blob/Binary Blob
     - **Definition**
         - Proprietary (nonfree) firmware/software, which is available as obfuscated code or a binary executable, intended to serve a purpose, like a driver for a device.
     - **Examples**
         - BIOS on most systems.
-        - On-chip GPU firmware.
+        - Official drivers for GPUs.
 
 - Backdoor
     - **Definition**
@@ -111,15 +111,18 @@ Most individuals have interacted with an internet-facing device before, in which
 
 You can never be completely safe from all insecurities. You can move to a remote island and be completely off the grid, but even then, you will be trading off personal safety for your privacy. You will never be able to achieve maximum secrecy in your everyday communications, but you are not prevented from taking measures to minimize intrusion into your activities.
 
-Assuming an everyday person in an industrialized society, they will have a smartphone, a computer, a smart television, and a smart speaker. All of these devices share a few common similarities: operating systems are closed-source, and they have sensors. In order to keep yourself safe, you must take drastic action, destroying these devices if you can. If you are unable to destroy these devices and need to keep them, the minimum is to destroy the sensors on these devices, and keep them completely off when they are not in use by unplugging them or removing the battery.
+Assuming an everyday person in an industrialized society, they will have a smartphone, a computer, a smart television, and a smart speaker. All of these devices share a few common similarities: their operating systems are closed-source, they have sensors, and they are manufactured by large corporations that report to the government. All of these convenient devices are compromised, intended for mass surveillance purposes. In order to keep yourself safe, you must take drastic action, destroying these devices if you can. If you are unable to destroy these devices and need to keep them, the minimum is to destroy the sensors on these devices, reduce attack surface and harden the device, and keep them completely off when they are not in use by unplugging them and removing the battery (if possible).
 
-In order to protect yourself, you must free yourself from backdoors. Most, if not all modern devices contain backdoors both on the hardware level, and the software level. In order to retain your freedom, you must refrain from owning any of these devices, as you do not own the data on them. That is a multi-step process:
+In order to protect yourself, you must free yourself from backdoors. Most, if not all modern devices contain backdoors both on the hardware level and the software level. The reason that these devices exist is for the user's convenience. The corporations harboring secrets from society has allowed these "convenient" devices to be normalized for everyday use. In order to retain your freedom, you must refrain from owning any of these devices, as you do not own the data on them. That is a multi-step process:
 
-1. Remove all hardware backdoors on your device.
-2. Remove all nonfree firmware blobs on your device.
-3. Remove all software backdoors on your device by installing free software.*
+1. Get a minimal device that is completely open and libre.
+2. Minimize your attack surface for any hardware backdoors on your device by only utilizing certain technologies, even if incompatible with many of your daily activities.
+3. Refrain from installing any nonfree firmware blobs on your device. These are software backdoors.
+4. Install only free software, and never run a binary without verifying integrity with PGP. When possible, compile the software from source.
 
-<small>* In an ideal world, free software is completely secure. Security is a spectrum, and while this publication takes it to the extreme, understand what your software is doing, and do not blindly trust it.</small>
+* In an ideal world, free software is completely secure. Security is a spectrum, and while this publication takes it to the extreme, understand what your software is doing, and do not blindly trust it.
+
+Binary blobs are used to allow a proprietary device work on a kernel. On a compromised desktop operating system like Windows or Mac OS, drivers are packaged along with the operating system and are also downloaded from the internet. This proves unsafe with a basic Man in the Middle attack, as a third party, like the TLAs or an independent hacker, can intercept the place where the blobs or ISO used for install are fetched and insert their own backdoors into it. While this basic attack can be mitigated with file integrity checks, it does not prevent the original signer of the binary to modify it for spying purposes. Unfortunately, binary blobs are usually not reversible without great efforts and knowledge. This means that the user is (usually unknowingly) letting potential backdoors into their system.
 
 todo: Firmware blobs, hardware backdoors, phones, computers, operating systems, etc.
 
@@ -129,7 +132,7 @@ todo: Five/Nine/Fourteen Eyes, mass surveillance programs, CCTV (gait, facial re
 
 #### You Cannot Trust Anyone
 
-todo: "Friends", politicians, family, coworkers, educators, partners, etc.
+todo: "Friends", politicians, family, coworkers, educators, partners, glowies, etc.
 
 #### (If) You Cannot See It, You Do Not Own It
 
