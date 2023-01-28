@@ -82,7 +82,7 @@ todo: Abstract.
 
 - Anonymity
     - **Definition**
-        - The ability to seclude your identify from another, and maintain separate identities.
+        - The ability to seclude your identity from another, and maintain separate identities.
     - **Examples**
         - Using a fake name, address, and other information while chatting with someone.
 
